@@ -1,0 +1,31 @@
+body {
+margin: 0;
+padding: 0;
+/* font-family: 'Open Sans', sans-serif; */
+}
+
+.slick-dots{
+padding-top: 20px;
+bottom: -10px!important;
+width: 200px;
+margin-left: 185px;
+}
+.slick-arrow {
+background-color:#8A93E5!important;
+border-radius: 5px;
+height: 28px;
+width: 28px;
+display: flex;
+justify-content: center;
+position: absolute;
+top: 100%;
+}
+.slick-arrow ::before{
+    padding: 15px;
+}
+.slick-next{
+    right: 25%;
+}
+.slick-prev{
+    left: 25%;
+}
